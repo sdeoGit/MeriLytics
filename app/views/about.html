@@ -1,0 +1,23 @@
+<p>This is the your shopping cart</p>
+<div>
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Unit</th>
+            <th>Total</th>
+        </tr>
+        <tr ng-repeat="item in product">
+            <td>{{item.name}}</td>
+            <td>{{item.price}}</td>
+            <td><input ng-model="item.unit" type="text"></td>
+            <td>{{item.unit*item.price | currency}}</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Total:</td>
+            <td>{{total() | currency}}</td>
+        </tr>
+    </table>
+</div>
