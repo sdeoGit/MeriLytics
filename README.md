@@ -1,6 +1,7 @@
 # test
-This is demo app for MeriLytics 
-check the demo <a href="./Cart.gif"></a>
+This is demo app for MeriLytics <b>DEMO</b> below 
+
+<img width="500" src="app/Cart.gif" border="0" />
 
 ## Build & development
 
